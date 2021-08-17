@@ -10,7 +10,7 @@ def play():
 	if x == "Roche" and y == "Papier":
 			print("J'ai " + y)
 			time.sleep(0.5)
-			print("J'ai Ganger")
+			print("J'ai Gagné")
 	if x == "Roche" and y == "Roche":
 			print("J'ai " + y)
 			time.sleep(0.5)
@@ -26,19 +26,19 @@ def play():
 	if x == "Papier" and y == "Roche":
 			print("J'ai " + y)
 			time.sleep(0.5)
-			print("J'ai Gagné")
+			print("J'ai Perdu")
 	if x == "Papier" and y == "Ciseaux":
 			print("J'ai " + y)
 			time.sleep(0.5)
-			print("J'ai Perdu")
+			print("J'ai Gagné")
 	if x == "Ciseaux" and y == "Papier":
 			print("J'ai " + y)
 			time.sleep(0.5)
-			print("J'ai Gagné")
+			print("J'ai Perdu")
 	if x == "Ciseaux" and y == "Roche":
 			print("J'ai " + y)
 			time.sleep(0.5)
-			print("J'ai Perdu")
+			print("J'ai Gagné")
 	if x == "Ciseaux" and y == "Ciseaux":
 			print("J'ai " + y)
 			time.sleep(0.5)
